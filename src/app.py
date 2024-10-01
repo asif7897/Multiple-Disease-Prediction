@@ -18,6 +18,8 @@ from streamlit_option_menu import option_menu
 # Adjust the paths accordingly
 # loading the saved models
 # loading the saved models with relative paths
+
+
  
 
 import pickle
@@ -28,6 +30,15 @@ import pickle
 import streamlit as st
 from streamlit_option_menu import option_menu
 import os  # Ensure the os module is imported
+
+st.markdown('''
+<a href="https://ibb.co.com/WF4DPxs">
+    <img src="https://i.ibb.co.com/k0s39HM/348234498-791946585679820-3645473590498982418-n.png" 
+    alt="348234498-791946585679820-3645473590498982418-n" 
+    border="0" 
+    style="width:50px;"/>
+</a>
+''', unsafe_allow_html=True)
 
 # loading the saved models with relative paths
 # Adjust the paths according to your directory structure
